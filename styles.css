@@ -1,0 +1,124 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+    margin-top: 0;
+}
+nav{
+    /* background-color: aqua; */
+    height: 64px;
+
+}
+#nav-bar{
+    height: 100%;
+    display: flex;
+    width: 96%;
+    margin: auto; 
+    justify-content: space-between;
+    align-items: center;
+}
+#navbar-right{
+    display: flex;
+    position: relative;
+}
+#cart{
+    padding-left: 22px;
+}
+#login{
+    padding-left: 14px;
+}
+#login-text{
+   font-family: sans-serif;
+   font-size: 12px;
+   font-weight: 700;
+   padding-top: 7px;
+   padding-left: 9px;
+   padding-right: 17px;
+}
+hr{
+    width: 0;
+    height: 25px;
+    opacity: 0.3;
+}
+
+/* #main{
+} */
+
+   #main img{
+    position: relative;
+    z-index: -1;
+    height:545px;
+    float:right;
+    clear: left;
+    right: -6rem;
+}   
+#buttons span{
+    padding-left: 10px;
+    padding-right: 8px;
+
+}
+
+#main-wrapper{
+    margin-left: 85px;
+}
+#main-heading p{
+    font-size: 40px;
+    font-weight: 300;
+}
+#input-box{
+    margin-top: 76px;
+    /* border: 1px solid blue; */
+    width: 960px;
+    height: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 0 11px 0px rgb(0 0 0 / 10%);
+    z-index: -1;
+}
+#input-box input{
+    height: 64px;
+    width:550px;
+     border:1px solid rgba(0, 0, 0, 0.1); 
+    border-radius: 7px;
+    outline: none;
+    padding-left: 20px;
+    font-size: 16px;
+    color:rgba(0, 0, 0, 0.5);
+
+}
+.btn{
+    width: 160px;
+    height: 64px;
+    border: none;
+    background-color: rgb(226,27,112);
+    font-size: 14px;
+    color: #ffffff;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+#input-box input::placeholder{
+    color: rgba(0, 0, 0, 0.4);
+    font-size: .9rem;
+}
+#input-box input:focus{
+    border: 1px solid black;
+}
+/* input:focus::-webkit-input-placeholder{
+position: relative;
+top: -2rem;
+background-color: #ffffff;
+transition:0.2s ease ease-out;
+overflow: visible;
+}  */
+#main-wrapper{
+   position: absolute;
+   top: 35%;
+}
