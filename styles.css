@@ -11,10 +11,8 @@ a{
     margin-top: 0;
 }
 nav{
-     /* background-color: aqua; */
     /* background-color: aqua; */
     height: 64px;
-
 }
 #nav-bar{
     height: 100%;
@@ -48,8 +46,10 @@ hr{
     opacity: 0.3;
 }
 
-/* #main{
-} */
+ #main{
+    height:545px;
+
+} 
 
    #main img{
     position: relative;
@@ -123,3 +123,26 @@ overflow: visible;
    position: absolute;
    top: 35%;
 }
+.section-headings{
+    width:88%;
+    margin:auto;
+}
+.section-headings h2{
+    font-size: 160px;
+    opacity: .1;
+    position: relative;
+    z-index: -1;
+}
+.section-headings p{
+    font-size: 28px;
+    font-weight: 300;
+    position:relative;
+    top:-6.7rem;
+}
+/* #partners{
+    background-image: url("images/chacha.jpg");
+    height: 433px;
+    margin-bottom: 400px;
+    position: relative;
+    margin-top: 200px;
+} */
